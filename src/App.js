@@ -10,45 +10,11 @@ function App() {
           </nav>
         <main>
                 <Product
-                    productComment={'Best seller'}
-                    img={Logo}
-                    title={'Oreo Cookiez'}
-                    productPrice={'500 THB'}
-                >
-                </Product>
-                <Product
-                    productComment={'Up'}
-                    img={Logo}
-                    title={'Oreo Cookiez'}
-                    productPrice={'500 THB'}
-                >
-                </Product>
-                <Product
-                    productComment={'Up'}
-                    img={Logo}
-                    title={'Oreo Cookiez'}
-                    productPrice={'500 THB'}
-                >
-                </Product>
-                <Product
-                    productComment={'Up'}
-                    img={Logo}
-                    title={'Oreo Cookiez'}
-                    productPrice={'500 THB'}
-                >
-                </Product>
-                <Product
-                    productComment={'Up'}
-                    img={Logo}
-                    title={'Oreo Cookiez'}
-                    productPrice={'500 THB'}
-                >
-                </Product>
-                <Product
                     productComment={'New'}
                     img={Logo}
                     title={'Oreo Cookiez'}
-                    productPrice={'500 THB'}
+                    productQuantity={1}
+                    productPrice={500}
                 >
                 </Product>
         </main>
