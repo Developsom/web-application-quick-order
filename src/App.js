@@ -1,20 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 import Product from "./components/Product";
+import Logo from "./assets/Logo.jpg";
 
 function App() {
   return (
-    <div className="App">
+      <>
         <main>
+            <nav>
              <Product
                 productComment={'Best seller'}
-                img={}
+                img={Logo}
                 title={'Oreo Cookiez'}
                 productPrice={'500 THB'}
-      >
+                >
             </Product>
+            </nav>
         </main>
-    </div>
+
+          <footer>
+
+          </footer>
+      </>
+
   );
 }
 
